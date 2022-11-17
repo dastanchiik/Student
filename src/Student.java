@@ -5,8 +5,9 @@ public class Student {
     private String name;
     private int age;
     private double height;
+    List<Student>students;
     public static void verb(){
-        System.out.println("Курста окуйт");
+        System.out.println("Коледжде окушат");
     }
 
     public Student(String name, int age, double height) {
